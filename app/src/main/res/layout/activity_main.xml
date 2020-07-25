@@ -34,37 +34,37 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
                 android:scaleType="fitXY"
                 app:layout_constraintEnd_toEndOf="@id/ConstraintLayout_one"
                 app:layout_constraintStart_toStartOf="@id/ConstraintLayout_one"
                 app:layout_constraintTop_toTopOf="@id/ConstraintLayout_one"
-                tools:srcCompat="@drawable/aa"
-                android:contentDescription="@string/todo" />
+                android:src="@drawable/aa" />
 
             <ImageView
                 android:id="@+id/imageView1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
                 android:scaleType="fitXY"
                 app:layout_constraintBottom_toBottomOf="@id/textView2"
                 app:layout_constraintEnd_toStartOf="@+id/imageView2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView"
                 app:layout_constraintVertical_bias="0.0"
-                tools:srcCompat="@drawable/th"
-                android:contentDescription="@string/todo" />
+                android:src="@drawable/th" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:scaleType="fitXY"
+                android:contentDescription="@string/todo"
+
                 app:layout_constraintBottom_toBottomOf="@id/imageView1"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView1"
                 app:layout_constraintTop_toTopOf="@+id/imageView1"
-                tools:srcCompat="@drawable/oneplus_3_gold"
-                android:contentDescription="@string/todo" />
+                android:src="@drawable/oneplus_3_gold" />
 
             <TextView
                 android:id="@+id/textView2"
